@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+    --font-inter--:'Inter', sans-serif;;
+    --color-gray--: #667085; 
+    --color-light-gray: #EAECF0;
+    --color-extra-light-gray: #F9FAFB;
+    --color-dark-gray--:#3A404E;
+    --color-almost-black--: #101828;
+    --color-red--: #8E2424;
+    --color-white--: #ffff;
+    --color-gray-pesquisa: #D0D5DD;
+}
+
+header{
+    font-family: var(--font-inter--);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-inter--);
+    text-align: center;
+    align-items: center;
+    height: 5em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 7em;
+    gap: 8px;
+}
+
+.cabecalho__titulo{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: var(--color-dark-gray--);
+}
+
+.lista__cabecalho{
+    display: flex;
+    gap: 32px;
+    margin-right: 22.5em;
+}
+
+.cabecalho__lista-item{
+    display: flex;
+
+}
+
+.cabecalho__lista-link{
+    text-decoration: none;
+    color: var(--color-gray--);
+
+}
+
+.entrada{
+    display: flex;
+    align-items: center;
+    margin-right: 7em;
+}
+
+
+.entrada__link{
+    text-decoration: none;
+    color: var(--color-gray--);
+    margin-right: 1em;
+    
+}
+
+
+.botao__cadastrar{
+    border: 1px solid var(--color-red--);
+    background-color: var(--color-red--);
+    border-radius: 8px;
+    color: var(--color-white--);
+    padding: 0.5em;
+}
+
+.entrada__cadastrar{
+    color: var(--color-white--);
+}
+
+.entrada__link-cadastro{
+    text-decoration: none;
+    color: var(--color-white--);
+}
+
+
+
+
+
+
+
+
+
+.banner{
+    display: block;
+    text-align: center;
+    font-family: var(--font-inter--);
+    margin: 6em 0;
+}
+
+.banner__div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner__mini-texto{
+    font-family: var(--font-inter--);
+    font-weight: 600;
+    color: var(--color-red--);
+}
+
+.banner__titulo{
+    font-size: 3em;
+    color: var(--color-almost-black--);
+    font-weight: 600;
+}
+
+.banner__texto{
+    font-size: 1.1em;
+    color: var(--color-gray--); 
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+
+
+
+
+.numeros{
+    display: flex;
+
+}
+
+
+.numeros__lista{
+    display: flex;
+    font-family: var(--font-inter--);
+
+}
+
+.numeros__lista-topico{
+    display: block;
+    margin-left: 7em;
+}
+
+
+.numeros__lista-numero{
+    color: var(--color-red--);
+    font-size: 3.75em;
+    font-weight: 600;
+}
+
+.numeros__lista-texto{
+    color: var(--color-almost-black--);
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
+}
+
+.numeros__subtexto{
+    color: var(--color-gray--);
+    font-weight: 400;
+    width: 89%;
+}
+
+.vagas{
+    font-family: var(--font-inter--);
+}
+
+
+.vagas__div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12.25em;
+}
+
+.vagas__mini-texto{
+    color: var(--color-red--);
+    font-size: 0.8em;
+    font-weight: 400;
+    border: 0px solid rgba(142, 36, 36, 0.05);
+    padding: 0.5em;
+    border-radius: 16px;
+    background-color: rgba(142, 36, 36, 0.05);
+}
+
+.vagas__titulo{
+    font-weight: 600;
+    color: var(--color-almost-black--);
+    font-size: 2.25em;
+}
+
+.vagas__subtexto{
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--color-gray--);
+}
+
+.vagas__imagem{
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 4em;
+}
+
+
+
+
+.salarios{
+    font-family: var(--font-inter--);
+    margin-left: 18%;
+    margin-top: 4em;
+}
+
+.salarios__titulo{
+    margin-top: 3em;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+
+.salario__banner{
+    display: block;
+    border: 1px solid var(--color-light-gray);
+    width: 75%;
+    border-radius: 16px;
+    height: 8em;
+    margin-top: 2em;
+}
+
+.salario__banner-titulo{
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 1.2em 0;
+    margin-left: 2em;
+}
+
+
+.valores{
+    display: flex;
+    gap: 24px;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.emprego__classificacao{
+    font-weight: 500;
+    color: var(--color-gray--);
+}
+
+.valor{
+    font-weight: 500;
+    color: var(--color-gray--);  
+}
+
+.colaboradores{
+    font-family: var(--font-inter--);
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+
+
+.colaboradores__banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 0px solid rgba(195, 25, 25, 0.03);
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    height: 20em;
+    width: 60%;
+    padding: 3em;
+    margin-left: 16%;
+    margin-top: 6em;
+}
+
+.mini_titulo{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--color-red--);
+}
+
+.colaboradores__texto{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.colaboradores__nome{
+    font-weight: 500;
+}
+
+.colaboradores__trabalho{
+    font-weight: 400;
+    font-size: 0.8em;
+    color: var(--color-gray--);
+    margin-top: 0.7em;
+}
+            
+.nome/trabalho{
+    display: block;
+
+}
+
+
+
+.oportunidades{
+    background-color: var(--color-extra-light-gray);
+    font-family: var(--font-inter--);
+    height: 17em;
+    margin-top: 6em;
+}
+
+.oportunidades__fim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo__footer{
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 0.9em;
+}
+
+.texto__footer{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--color-gray--);
+    margin: 1em 0;
+}
+
+.footer__cadastro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 1em 0;
+}
+
+.input__e-mail{
+    background-color: transparent;
+    border-radius: 8px;
+    width: 20em;
+    height: 2.3em;
+    border: 1px solid var(--color-gray-pesquisa);
+    padding-left: 1.2em;
+
+}
+
+
+
+.botao__footer{
+    text-decoration: none;
+    color: var(--color-white--);
+    border: 0px solid var(--color-red--);
+    background-color: var(--color-red--);
+    padding: 1em;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.letras__pequenas{
+    color: var(--color-gray--);
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-top: 1em;
+}
